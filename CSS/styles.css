@@ -1,0 +1,40 @@
+/*this is an exmaple of 'external CSS, using a link in the main html page to link to the style/CSS'*/
+
+body {
+  background-image: url("Webpagebg.png");
+  background-repeat: repeat;
+  background-color:#EDEDED;
+}
+hr {
+  border-style: dotted none none;
+  border-color: #444444;
+  border-width: 5px;
+  width: 5%;
+
+}
+h1 {
+  color: #7D0633;
+}
+h2 {
+  color: #9C3D54;
+}
+h3 {
+  color: #734046;
+}
+
+
+
+/*********************CLASS*********************/
+
+.doc {
+  border-radius: 100%;
+}
+
+h1:hover {
+  color: #7F8487;
+}
+
+.skullgod:hover {
+  color: #A13333;
+}
+</style>
